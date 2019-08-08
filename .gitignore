@@ -1,6 +1,7 @@
-Thirdparty/ACT/Advanced Combat Tracker.exe
-Thirdparty/FFXIV_ACT_Plugin/*
-Thirdparty/OverlayPlugin/*
+Thirdparty/ACT/*.exe
+Thirdparty/ACT/*.dll
+Thirdparty/OverlayPlugin/*.exe
+Thirdparty/OverlayPlugin/*.dll
 Distribute/*
 
 ## Ignore Visual Studio temporary files, build results, and
