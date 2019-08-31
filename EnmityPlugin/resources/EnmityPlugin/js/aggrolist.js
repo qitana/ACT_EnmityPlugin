@@ -1,5 +1,5 @@
 // 敵視リストが空のとき表示しない
-var hideNoAggro = false;
+var hideNoAggro = true;
 
 // ロールの定義
 var JobRole = {
