@@ -28,10 +28,10 @@ namespace Tamagawa.EnmityPlugin
         // Target
         private const string targetSignature = "41bc000000e041bd01000000493bc47555488d0d";
         private const int targetOffset = 144;
-        private const int currentTargetOffset = 40;
-        private const int anchorTargetOffset = 56;
-        private const int focusTargetOffset = 136;
-        private const int hoverTargetOffset = 80;
+        private const int currentTargetOffset = 24; //5.1
+        private const int anchorTargetOffset = 40; //5.1
+        private const int focusTargetOffset = 104; //5.1
+        private const int hoverTargetOffset = 64; //5.1
         private const int previousTargetOffset = 160; // not used.
 
         // Enmity
@@ -53,15 +53,15 @@ namespace Tamagawa.EnmityPlugin
         private const int combatantStructureOffset_PosZ = 164;
         private const int combatantStructureOffset_PosY = 168;
         private const int combatantStructureOffset_Heading = 176;
-        private const int combatantStructureOffset_TargetID = 6176; //5.0 propose: 6168,6176,6288,6512,7640
-        private const int combatantStructureOffset_CurrentHP = 6308; //5.0
-        private const int combatantStructureOffset_MaxHP = 6312; //5.0
-        private const int combatantStructureOffset_CurrentMP = 6316; //5.0
-        private const int combatantStructureOffset_MaxMP = 6320; //5.0
-        private const int combatantStructureOffset_Job = 6364; //5.0
-        private const int combatantStructureOffset_Level = 6366; //5.0
+        private const int combatantStructureOffset_TargetID = 6176; //5.1 NpcTargetId
+        private const int combatantStructureOffset_CurrentHP = 6328; //5.1
+        private const int combatantStructureOffset_MaxHP = 6332; //5.1
+        private const int combatantStructureOffset_CurrentMP = 6336; //5.1
+        private const int combatantStructureOffset_MaxMP = 6340; //5.1
+        private const int combatantStructureOffset_Job = 6388; //5.1
+        private const int combatantStructureOffset_Level = 6390; //5.1
 
-        private const int combatantStructureOffset_StatusOffset = 6168;
+        private const int combatantStructureOffset_StatusOffset = 6184; //5.1
         private const int combatantStructureOffset_StatusItemSize = 12;
         private const int combatantStructureOffset_StatusItem_ID = 0;
         private const int combatantStructureOffset_StatusItem_Stacks = 2;
