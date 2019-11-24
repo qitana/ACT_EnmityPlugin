@@ -1,4 +1,7 @@
 # EnmityPlugin
 
-現在のターゲットの敵視量、距離、HP等をオーバーレイ表示する、[OverlayPlugin](https://github.com/hibiyasleep/OverlayPlugin) のアドオンです。 
+EnmityPlugin feature is merged to https://github.com/ngld/OverlayPlugin/  
+Some additional my overlays are published at https://github.com/qitana/ACT_Overlays
 
+EnmityPluginの機能は https://github.com/ngld/OverlayPlugin/ に統合されました。  
+いくつかの追加オーバーレイは https://github.com/qitana/ACT_Overlays で公開しています。
