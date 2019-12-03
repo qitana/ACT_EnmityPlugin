@@ -18,5 +18,10 @@
 [ngld/OverlayPlugin](https://github.com/ngld/OverlayPlugin) では取得できないという声を聞きましたので、  
 [PR#62](https://github.com/ngld/OverlayPlugin/pull/62) を提出しました。
 
-なお、[qitana/ACT_Overlays](https://github.com/qitana/ACT_Overlays) の develop ブランチでは  
-すでにEffectiveDistance に対応できるように準備をしています。
+本家のリリースを待ちきれない場合は  
+https://github.com/qitana/OverlayPlugin/releases/tag/v0.11.2-tmp-191204  
+を使用して下さい。
+
+なお、[qitana/ACT_Overlays](https://github.com/qitana/ACT_Overlays) で公開しているオーバーレイは  
+EffectiveDistance の表示に対応しました。
+
